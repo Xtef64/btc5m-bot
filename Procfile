@@ -1,1 +1,1 @@
-worker: python bot.py
+worker: sh -c "cd btc-bot && python executor.py"

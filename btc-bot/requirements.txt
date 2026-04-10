@@ -6,3 +6,4 @@ python-telegram-bot==21.3
 ntscraper==0.3.9
 schedule==1.2.2
 flask==3.0.3
+python-dotenv>=1.0.0

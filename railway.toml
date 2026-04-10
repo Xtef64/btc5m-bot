@@ -1,6 +1,10 @@
 [build]
 builder = "nixpacks"
 
+[build.nixpacks]
+pythonVersion = "3.12"
+
 [deploy]
+startCommand = "sh -c \"cd btc-bot && python executor.py\""
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 5
